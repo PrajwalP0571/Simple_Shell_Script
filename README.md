@@ -42,7 +42,7 @@ Make sure you have the following before starting the setup:
 
 ## 🚀 **Setup Instructions**  
 
-### **Step 1: Create an EC2 Instance**  
+## **Step 1: Create an EC2 Instance**  
 1. Open the AWS Management Console.  
 2. Create a new EC2 instance with the following configuration:  
    - **Instance Type:** `t2.micro`  
@@ -54,7 +54,7 @@ Make sure you have the following before starting the setup:
 
 ---
 
-### **Step 2: SSH into the EC2 Instance**  
+## **Step 2: SSH into the EC2 Instance**  
 Connect to your EC2 instance using SSH:  
 
 ```bash
@@ -63,7 +63,7 @@ ssh -i <your-key.pem> ubuntu@<EC2_PUBLIC_IP>
 
 ---
 
-### **Step 3: Clone the Repository
+## **Step 3: Clone the Repository
 Clone the repository in the home directory:
 ```bash
 cd ~
@@ -71,7 +71,7 @@ git clone https://github.com/PrajwalP0571/Simple_Shell_Script.git
 ```
 ---
 
-### **Step 4: Create the Shell Script
+## **Step 4: Create the Shell Script
 Navigate to the project folder and create a new shell script file named script.sh:
 
 ```bash
@@ -80,7 +80,7 @@ vi script.sh
 
 ---
 
-### **Step 5: Add the Script Code
+## **Step 5: Add the Script Code
 Add the following script code to script.sh:
 
 ```bash
@@ -107,7 +107,7 @@ echo "Done! Copy the EC2 IP address and access it from your browser."
 
 ---
 
-### **Step 6: Make the Script Executable
+## **Step 6: Make the Script Executable
 Give executable permission to the script:
 
 ```bash
@@ -116,7 +116,7 @@ chmod u+x script.sh
 
 ---
 
-### **Step 7: Execute the Script
+## **Step 7: Execute the Script
 Run the script to configure the instance:
 
 ```bash
@@ -125,7 +125,7 @@ Run the script to configure the instance:
 
 ---
 
-### **Step 8: Test the Setup
+## **Step 8: Test the Setup
 Copy the Public IP of the EC2 instance and paste it in your browser to check if the NGINX server is running and serving your project:
 
 ```bash
@@ -136,7 +136,7 @@ http://<EC2_PUBLIC_IP>
 
 ---
 
-### 🎯 **Outcome**
+## 🎯 **Outcome**
 After running the script, the following will be set up:
 ✔️ EC2 instance configured with security groups
 ✔️ Installed NGINX server
@@ -145,7 +145,7 @@ After running the script, the following will be set up:
 
 ---
 
-### 🚨 **Troubleshooting**
+## 🚨 **Troubleshooting**
 Problem	Solution
 ❌ NGINX not starting Restart NGINX: sudo systemctl restart nginx
 ❌ Connection refused to Check if the security group allows inbound traffic on port 80
@@ -153,7 +153,7 @@ Problem	Solution
 
 ---
 
-### 🌍 **Best Practices**
+## 🌍 **Best Practices**
 ✅ Use environment variables for sensitive data like keys and passwords
 ✅ Restrict SSH access to known IP addresses
 ✅ Automate EC2 instance termination after testing to avoid costs
@@ -193,7 +193,7 @@ Copy code
 
 ---
 
-### ✅ **Why This Version Works:**  
+## ✅ **Why This Version Works:**  
 ✔️ Shields add a professional touch and highlight key details  
 ✔️ Stickers and GIFs improve visual appeal  
 ✔️ Best practices and troubleshooting sections provide added value  
