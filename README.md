@@ -136,69 +136,70 @@ http://<EC2_PUBLIC_IP>
 
 ---
 
-## 🎯 Outcome
-**After running the script, the following will be set up:**
-✔️ EC2 instance configured with security groups
-✔️ Installed NGINX server
-✔️ Deployed GitHub repository content to the document root
-✔️ Accessible project via public IP
+## 🎯 Outcome  
+After running the script, the following will be set up:  
+✔️ **EC2 instance** configured with security groups  
+✔️ Installed **NGINX server**  
+✔️ Deployed **GitHub repository content** to the document root  
+✔️ Accessible project via **public IP**  
 
 ---
 
-## 🚨 Troubleshooting
-**Problem	Solution:**
-❌ NGINX not starting Restart NGINX: sudo systemctl restart nginx
-❌ Connection refused to Check if the security group allows inbound traffic on port 80
-❌ Permission denied Use chmod +x script.sh to give execute permission
+## 🚨 Troubleshooting  
+| Problem | Solution |
+|---------|----------|
+| ❌ **NGINX not starting** | Restart NGINX: `sudo systemctl restart nginx` |
+| ❌ **Connection refused** | Check if the security group allows inbound traffic on port 80 |
+| ❌ **Permission denied** | Use `chmod +x script.sh` to give execute permission |
 
 ---
 
-## 🌍 **Best Practices**
-✅ Use environment variables for sensitive data like keys and passwords
-✅ Restrict SSH access to known IP addresses
-✅ Automate EC2 instance termination after testing to avoid costs
+## 🌍 Best Practices  
+✅ Use **environment variables** for sensitive data like keys and passwords  
+✅ Restrict **SSH access** to known IP addresses  
+✅ Automate **EC2 instance termination** after testing to avoid costs  
 
 ---
 
-📸 Screenshots
-<details> <summary>📷 Click to expand</summary>
+## 📸 Screenshots  
+<details>  
+<summary>📷 Click to expand</summary>  
 
-Example of the project output in the browser
+Example of the project output in the browser  
 
-</details>
-💡 Learnings
-Through this project, you will gain hands-on experience with:
-
-Setting up EC2 instances on AWS
-Automating infrastructure with shell scripting
-Deploying web servers using NGINX
-Working with GitHub repositories
-👨‍💻 About the Author
-Prajwal Pawar – Cloud Engineer & AWS Certified Solutions Architect
-🌟 GitHub: PrajwalP0571
-📧 Email: prajwal.pawar0571@gmail.com
-
-💪 Contribute
-If you'd like to contribute to this project, feel free to fork the repository and raise a pull request!
-
-📄 License
-This project is licensed under the MIT License.
-
-🌟 Show Your Support!
-If you found this project useful, give it a ⭐ on GitHub!
-
-<p align="center"> <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="100px"> </p>
-yaml
-Copy code
+</details>  
 
 ---
 
-## ✅ **Why This Version Works:**  
-✔️ Shields add a professional touch and highlight key details  
-✔️ Stickers and GIFs improve visual appeal  
-✔️ Best practices and troubleshooting sections provide added value  
-✔️ Clear step-by-step instructions with organized headers  
+## 💡 Learnings  
+Through this project, you will gain hands-on experience with:  
+- Setting up **EC2 instances** on AWS  
+- Automating infrastructure with **shell scripting**  
+- Deploying web servers using **NGINX**  
+- Working with **GitHub repositories**  
 
 ---
 
-This will make your project look polished and professional on GitHub! 😎
+## 👨‍💻 About the Author  
+**Prajwal Pawar** – Cloud Engineer & AWS Certified Solutions Architect  
+🌟 **GitHub**: [PrajwalP0571](https://github.com/PrajwalP0571)  
+📧 **Email**: [prajwal.pawar0571@gmail.com](mailto:prajwal.pawar0571@gmail.com)  
+
+---
+
+## 💪 Contribute  
+If you'd like to contribute to this project, feel free to **fork the repository** and raise a **pull request**!  
+
+---
+
+## 📄 License  
+This project is licensed under the **MIT License**.  
+
+---
+
+## 🌟 Show Your Support!  
+If you found this project useful, give it a ⭐ on GitHub!  
+
+<p align="center">  
+  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="100px">  
+</p>
