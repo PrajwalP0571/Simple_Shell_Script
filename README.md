@@ -166,6 +166,7 @@ After running the script, the following will be set up:
 <summary>📷 Click to expand</summary>  
 
 Example of the project output in the browser  
+![Simple script output](https://github.com/user-attachments/assets/96eaacf1-7cf6-4802-ad64-7ee55c187a88)
 
 </details>  
 
