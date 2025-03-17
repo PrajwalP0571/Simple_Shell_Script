@@ -119,7 +119,7 @@ Copy the Public IP of the EC2 instance and paste it in your browser to check if 
 
 ```bash
 http://<EC2_PUBLIC_IP>
-'''
+```
 
 ✅ If successful, you should see your project content displayed in the browser.
 
