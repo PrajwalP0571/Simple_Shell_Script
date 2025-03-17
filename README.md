@@ -61,12 +61,15 @@ Connect to your EC2 instance using SSH:
 ssh -i <your-key.pem> ubuntu@<EC2_PUBLIC_IP>
 ```
 
+---
+
 ### **Step 3: Clone the Repository
 Clone the repository in the home directory:
 ```bash
 cd ~
 git clone https://github.com/PrajwalP0571/Simple_Shell_Script.git
 ```
+---
 
 ### **Step 4: Create the Shell Script
 Navigate to the project folder and create a new shell script file named script.sh:
@@ -74,6 +77,8 @@ Navigate to the project folder and create a new shell script file named script.s
 ```bash
 vi script.sh
 ```
+
+---
 
 ### **Step 5: Add the Script Code
 Add the following script code to script.sh:
@@ -100,6 +105,8 @@ sudo git clone https://github.com/PrajwalP0571/Simple_Shell_Script.git /var/www/
 echo "Done! Copy the EC2 IP address and access it from your browser."
 ```
 
+---
+
 ### **Step 6: Make the Script Executable
 Give executable permission to the script:
 
@@ -107,12 +114,16 @@ Give executable permission to the script:
 chmod u+x script.sh
 ```
 
+---
+
 ### **Step 7: Execute the Script
 Run the script to configure the instance:
 
 ```bash
 ./script.sh
 ```
+
+---
 
 ### **Step 8: Test the Setup
 Copy the Public IP of the EC2 instance and paste it in your browser to check if the NGINX server is running and serving your project:
