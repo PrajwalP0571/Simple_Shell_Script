@@ -121,7 +121,7 @@ Copy the Public IP of the EC2 instance and paste it in your browser to check if 
 http://<EC2_PUBLIC_IP>
 ```
 
-✅ If successful, you should see your project content displayed in the browser.
+✅ If successful, your project content should be displayed in the browser.
 
 🎯 Outcome
 After running the script, the following will be set up:
