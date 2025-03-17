@@ -125,10 +125,10 @@ http://<EC2_PUBLIC_IP>
 
 ### 🎯 Outcome
 After running the script, the following will be set up:
-✔️ EC2 instance configured with security groups
-✔️ Installed NGINX server
-✔️ Deployed GitHub repository content to the document root
-✔️ Accessible project via public IP
+-✔️ EC2 instance configured with security groups
+-✔️ Installed NGINX server
+-✔️ Deployed GitHub repository content to the document root
+-✔️ Accessible project via public IP
 
 ### 🚨 Troubleshooting
 Problem	Solution
