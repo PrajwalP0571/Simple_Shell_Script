@@ -123,20 +123,20 @@ http://<EC2_PUBLIC_IP>
 
 ✅ If successful, your project content should be displayed in the browser.
 
-🎯 Outcome
+### 🎯 Outcome
 After running the script, the following will be set up:
 ✔️ EC2 instance configured with security groups
 ✔️ Installed NGINX server
 ✔️ Deployed GitHub repository content to the document root
 ✔️ Accessible project via public IP
 
-🚨 Troubleshooting
+### 🚨 Troubleshooting
 Problem	Solution
 ❌ NGINX not starting Restart NGINX: sudo systemctl restart nginx
 ❌ Connection refused to Check if the security group allows inbound traffic on port 80
 ❌ Permission denied Use chmod +x script.sh to give execute permission
 
-🌍 Best Practices
+### 🌍 Best Practices
 ✅ Use environment variables for sensitive data like keys and passwords
 ✅ Restrict SSH access to known IP addresses
 ✅ Automate EC2 instance termination after testing to avoid costs
